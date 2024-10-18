@@ -1,6 +1,6 @@
 ﻿internal class Exercise1
 {
-    private static void Main()
+    private static void Main1222()
     {
         // Question_01();
         // Question_02();
