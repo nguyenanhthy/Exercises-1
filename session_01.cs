@@ -1,6 +1,4 @@
-﻿using System.Transactions;
-
-internal class Exercise1
+﻿internal class Exercise1
 {
     private static void Main()
     {
