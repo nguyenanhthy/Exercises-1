@@ -10,7 +10,7 @@ namespace Exercises_1
 {
     internal class session04_03
     {
-        private static void Main()
+        private static void Main1()
         {
         //Question01();
         Question02();
