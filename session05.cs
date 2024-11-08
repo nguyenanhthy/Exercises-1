@@ -19,17 +19,17 @@ namespace Exercises_1
 {
     internal class session05
     {
-        private static void Main()
+        private static void Main6()
         {
             //Question01();
             //Question02();
             //Question03();
             //Question04_c1();
             //Question04_c2();
-            Question05();
+            //Question05();
             //Question06();
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
         /// <summary>
@@ -260,24 +260,24 @@ namespace Exercises_1
             int i = 0;
             insoperfect(i);
         }
-        /// <summary>
-        /// 6. Write a C# function to check whether a string is a pangram or not.
-        /// </summary>
-        public static void Question06()
-        {
-            Console.Write("Nhap vao mot cau ");
-            string a = Console.ReadLine();
+        ///// <summary>
+        ///// 6. Write a C# function to check whether a string is a pangram or not.
+        ///// </summary>
+        //public static void Question06()
+        //{
+        //    Console.Write("Nhap vao mot cau ");
+        //    string a = Console.ReadLine();
 
-        }
-        public static bool pangramornot(string a)
-        {
+        //}
+        //public static bool pangramornot(string a)
+        //{
             
-            foreach (int j in a)
-            {
-                if (j == a && j==b
-            }    
+        //    foreach (int j in a)
+        //    {
+        //        if (
+        //    }    
         }
     }
      
 
-}
+
