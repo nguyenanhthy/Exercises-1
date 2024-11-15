@@ -19,7 +19,7 @@ namespace Exercises_1
         /// 6. to reverse an array of integer values.
         /// 7. to find duplicate elements from an array.
         /// </summary>
-        public static void Main()
+        public static void Main2()
         {
             Console.Write("Nhap so phan tu de tao mang tu nhien: ");
             int n = int.Parse(Console.ReadLine());
@@ -73,7 +73,8 @@ namespace Exercises_1
             Console.Write("Nhap gia tri can xoa ");
             int socanxoa = int.Parse(Console.ReadLine());
             xoa(a, socanxoa);
-
+            a = xoa(a, socanxoa);
+            foreach (int i in a) Console.Write(i +" ");
 
             nhonhat(a);
             int min = nhonhat(a);
@@ -98,7 +99,7 @@ namespace Exercises_1
         /// </summary>
         /// <param name="a"></param>
         /// <param name="socanxoa"></param>
-        static int xoa(int[] a, int socanxoa)
+        static int[] xoa(int[] a, int socanxoa)
         {
             if (timvitri(a, socanxoa) == -1)
             {
@@ -118,23 +119,13 @@ namespace Exercises_1
                     a[j] = temp;
                 }
             }
-            int items = 0;
-            int[] array2 = new int[a.Length - 1];
-            for (int j = 1; j < a.Length; j++)
+            
+            int[] x = new int[a.Length - 1];
+            for (i = 1; i < a.Length; i++)
             {
-                array2[items] = a[j];
-
+                x[i - 1] = a[i];
             }
-            foreach (int j in array2)
-            {
-                Console.Write(j + " ");
-            }
-            return array2[items];
-
-
-
-
-
+            return x;
         }
         /// <summary>
         ///3. to find the index of an array element.

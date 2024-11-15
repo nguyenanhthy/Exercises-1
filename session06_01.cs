@@ -10,7 +10,7 @@ namespace Exercises_1
 {
     internal class session06
     {
-        private static void Main()
+        private static void Main1()
         {
             ex1();
 
@@ -59,7 +59,7 @@ namespace Exercises_1
             }
             
         }
-        static void tinhtongmang(int[] a)
+        static int tinhtongmang(int[] a)
         {
             int sum = 0;
             Console.WriteLine("xuat tong mang sau khi tang: ");
@@ -68,6 +68,7 @@ namespace Exercises_1
                 sum += somoi;
             }
             Console.WriteLine(sum);
+            return sum;
         }
         static void trungbinh(int[]a)
         {
